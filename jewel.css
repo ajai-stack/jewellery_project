@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Merienda:wght@800;900&family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@800;900&family=Patua+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Crimson+Text&family=Josefin+Slab:ital,wght@0,400;,wght@1,300 &family=Merienda:wght@800;900&family=Patua+One&display=swap');
+
+*{
+   margin: 0;
+   padding:0;
+   background-color: white;
+}
+.png-image{
+    display: flex;
+    margin-top: 30px; 
+    
+}
+h1{
+    margin-top: 40px;
+    font-family:  'Merienda', cursive;
+    font-weight: 500; 
+}
+.text-center .contact a {
+    color: black;
+}
+.png-image .font{
+    
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-top: 55px;
+
+}
+.png-image .font input{
+    border: none;
+    outline: none;
+    text-indent: 30px;
+
+}
+.font .contact{
+       float: right;
+       text-indent: 50px;
+}
+i{
+    font-size: x-large;
+}
+
+.menubar{
+    padding:30px;
+    font-size: small;
+    font-family: 'Crimson Text', serif;
+    text-indent: 40px;
+}
+.menubar a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+.navbar-nav .nav-item a{
+    font-size: small;
+    text-indent: 25px; 
+    position: relative;
+    
+
+}
+.navbar-nav .nav-item a::after{
+     content: "";
+     position: absolute;
+     left: 15px;
+     bottom: 0%;
+     height: 2px;
+     width: 0;
+     background-color: black;
+     
+     
+}
+.navbar-nav .nav-item a:hover::after{
+    content: "";
+    position: absolute;
+    left: 15px;
+    bottom: 0%;
+    height: 2px;
+    width: 100%;
+    background-color:black; 
+    transition: 0.4s ease-in;
+}
+.size .card {
+    height: auto;
+    overflow: hidden;
+}
+.size .card img{
+    width: 100%;
+    transition:0.8s ease-out;
+    
+}
+.size .card img:hover{
+    transform: scale(1.2);
+}
+
+.names{
+    text-align: center;
+    font-style: oblique;
+    font-size: 16px;
+}
+.names del{
+    color: darkgrey;
+
+}
+.names em{
+    color: red;
+}
+.card .card-body {
+    text-align: center;
+    outline: none;
+    
+}
+.card .card-body a{
+    font-size: 22px;
+}
+
+.word{
+    text-align: center;
+
+
+}
+.word button{
+    
+    margin-top: 50px;
+    font-size: x-large; 
+    border: 1px solid gray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black; 
+     box-shadow: 0 0.5rem 3rem rgb(172, 166, 166);
+}
+
+.word button:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.container .box{
+    margin-top: 90px;
+    color: goldenrod;
+    text-align: center;
+    
+}
+
+.container .imgbox img{
+     border-radius:40px;
+}
+.net {
+    margin-top: 90px;
+    box-shadow:  0 0.5rem 3rem rgb(172, 166, 166);
+    
+}
+
+
+/* login page */
+.log{
+    text-align: center;
+}
+.log h1{
+    margin-top: 110px;
+    font-size: 39px;
+    font-family: 'Cinzel', serif;
+}
+
+form {
+  text-align: center;
+}
+.create .email{
+    margin-top: 30px;
+}
+.create .email label{
+    margin-top: 27px;
+    margin-right: 350px;
+    font-style:  'Josefin Slab', serif;  
+}
+.create .email input{
+    width: 400px;
+    height: 35px;
+    text-indent:15px; 
+    border-radius: 3px; 
+    border: 0.1px solid grey;
+}
+.create .email input:hover{
+    border: 2px solid black;
+}
+.create .password{
+    margin-top: 9px;
+  
+}
+.create .password label{
+    margin-top: 23px;
+    margin-right: 325px;
+    font-style: 'Josefin Slab', serif;  
+}
+.create .password input{
+    width: 400px;
+    height: 35px;
+    text-indent:15px;
+    border-radius: 3px;
+    border: 0.1px solid grey;
+}
+.create .password input:hover{
+    border: 2px solid black;
+}
+.create .forget{
+
+    margin-right: 272px;
+}
+.create .forget a{
+    text-decoration: none;
+    color: rgb(56, 54, 54);
+}
+.create .sign{
+    margin-top: 23px;
+}
+.create .sign button{
+    width: 400px;
+    height: 35px;
+    text-indent:15px;
+    border-radius: 3px;
+    border: 0.1px solid grey;
+    background-color: black;
+    color: rgb(250, 251, 252);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+.create .account{
+    margin-top: 10px;
+}
+
+.create .account a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+} 
+
+
+/*---create account---*/
+
+.account{
+    text-align: center;
+}
+.account h1{
+    margin-top: 110px;
+    font-size: 39px;
+    font-family: 'Cinzel', serif;
+}
+
+form {
+  text-align: center;
+}
+/*---first name----*/
+.create .fname{
+    margin-top: 30px;
+}
+.create .fname label{
+    margin-top: 27px;
+    margin-right: 320px;
+    font-style:  'Josefin Slab', serif;  
+}
+.create .fname input{
+    width: 400px;
+    height: 35px;
+    text-indent:15px; 
+    border-radius: 3px; 
+    border: 0.1px solid grey;
+}
+.create .fname input:hover{
+    border: 2px solid black; 
+}
+
+/*---last name---*/
+
+.create .lname{
+    margin-top: 9px;
+  
+}
+.create .lname label{
+    margin-top: 23px;
+    margin-right: 325px;
+    font-style: 'Josefin Slab', serif;  
+}
+.create .lname input{
+    width: 400px;
+    height: 35px;
+    text-indent:15px;
+    border-radius: 3px;
+    border: 0.1px solid grey;
+}
+.create .lname input:hover{
+    border: 2px solid black;
+}
+/*---temail---*/
+
+.create .temail{
+    margin-top: 9px;
+  
+}
+.create .temail label{
+    margin-top: 23px;
+    margin-right: 355px;
+    font-style: 'Josefin Slab', serif;  
+}
+.create .temail input{
+    width: 400px;
+    height: 35px;
+    text-indent:15px;
+    border-radius: 3px;
+    border: 0.1px solid grey;
+}
+.create .temail input:hover{
+    border: 2px solid black;
+}
+
+/*-password--*/
+
+.create .tpass{
+    margin-top: 9px;
+  
+}
+.create .tpass label{
+    margin-top: 23px;
+    margin-right: 325px;
+    font-style: 'Josefin Slab', serif;  
+}
+.create .tpass input{
+    width: 400px;
+    height: 35px;
+    text-indent:15px;
+    border-radius: 3px;
+    border: 0.1px solid grey;
+}
+.create .tpass input:hover{
+    border: 2px solid black;
+}
+.create .tpass{
+    margin-top: 9px;
+  
+}
+.create .tpass label{
+    margin-top: 23px;
+    margin-right: 325px;
+    font-style: 'Josefin Slab', serif;  
+}
+.create .tpass input{
+    width: 400px;
+    height: 35px;
+    text-indent:15px;
+    border-radius: 3px;
+    border: 0.1px solid grey;
+}
+.create .tpass input:hover{
+    border: 2px solid black;
+}
+
+/*--create button---*/
+
+.create .button{
+    margin-top: 23px;
+}
+.create .button button{
+    width: 400px;
+    height: 35px;
+    text-indent:15px;
+    border-radius: 3px;
+    border: 0.1px solid grey;
+    background-color: black;
+    color: rgb(250, 251, 252);
+    font-family:Cambria, Cochin, Georgia, Times,'Times New Roman', serif;  
+}
+.create .button button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+/*--review page--*/
+
+.footer h1{
+    text-align: center;
+    margin-top: 100px;
+}
+  
+.testimonial{
+    
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    gap: 12px;   
+    
+}
+
+.row .testimonial{
+    display: flex;
+
+}
+.testimonial .one{
+    box-sizing: border-box;
+    width: 410px;
+    height: 270px;
+    border: 1px solid black;
+    box-shadow:  0 0.5rem 3rem rgb(172, 166, 166);
+    
+}
+.testimonial .two{
+    box-sizing: border-box;
+    width: 410px;
+    height: 270px;
+    border: 1px solid black;
+    box-shadow:  0 0.5rem 3rem rgb(172, 166, 166);
+}
+
+.testimonial .three{
+    box-sizing: border-box;
+    width: 410px;
+    height: 270px;
+    border: 1px solid black;
+    box-shadow:  0 0.5rem 3rem rgb(172, 166, 166);
+
+} 
+.testimonial .one p{
+    margin-top: 30px;
+}
+.testimonial .two p{
+    margin-top: 30px;
+}
+.testimonial .three p{
+    margin-top: 30px;
+}
+
+/*footer*/
+
+
+.row .mention{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+ul{
+    list-style: none;
+}
+.topper{
+    padding: 70px 0;
+
+}
+.footer-col{
+    
+    padding: 0 15px;
+  
+}
+.footer-col h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+   font-weight: 500;
+   position: relative;
+   margin-left: 30px;
+   
+}
+.footer-col ul li {
+    margin-bottom:10px ;
+}
+.footer-col ul li a{
+     font-size: 16px;
+     text-transform: capitalize;
+     text-decoration: none;
+     color: black;
+
+}
+.footer-col p{
+    margin-left: 20px;
+}
+.footer-col .social-links{
+    margin-left: 20px;
+    margin-top: 50px;
+    
+}
+.footer-col .social-links a{
+    margin-left: 25px;
+}
+
+.fa-instagram{
+    color: rgb(243, 7, 7);
+}
+
+.fa-whatsapp{
+    color: rgb(52, 226, 9);
+}
+
+.end{
+    text-align: center;
+    font-style: oblique;
+}
+
+
+
+/*---add to cart---*/
+
+/*---image 1-----*/
+
+.left img{
+     margin-top: 90px;
+}
+header .left{
+    display: flex;
+    flex-wrap: wrap;
+}
+.right{
+    margin-top:90px;
+    margin-left: 80px;
+
+}
+.right-side h3{
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+}
+.right-side p{
+    margin-top: 30px;
+    font-size: 25px;
+}
+.right-side p del{
+    color: gray;
+    
+}
+.right-side p em{
+    color: red;
+}
+.right-side h5{
+    font-size: 15px;
+
+}
+.right-side .tone p{
+     font-size: 28px;
+     
+}
+.right-side .tone  h3{
+    border: 1px solid black;
+   font-size:20px;
+   width: 150px;
+   height: 40px;
+   text-align: center;
+   padding-top: 6px;
+
+    
+}
+.right-side .add{
+    margin-top: 50px;
+}
+.right-side .add input{
+    width: 500px;
+    height: 45px;
+    background-color: black;
+    color: aliceblue;
+    font-size: larger;
+}
+.links .social-links {
+    text-align: center;
+    margin-top: 50px;
+}
+.links .social-links i{
+    margin-left: 40px;
+}
+
+
+
+/*---increment decrement--*/
+
+
+.text{
+    display: flex;
+    margin-top: 30px;
+   
+    
+}
+.text button {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+.text button:hover{
+    background-color: rgb(219, 216, 216);
+}
+.text h3{
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:991px) {
+
+    .font{
+        visibility: hidden;
+         
+        }
+}
